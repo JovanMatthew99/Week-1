@@ -1,0 +1,60 @@
+/*
+Universal Selector - * Selects All Elements in the HTML document
+* {
+    background-color: rgb(127, 185, 255);
+} */
+
+/* Element Selector - Selects every instance of an element in the document*/
+h1 {
+    color: aquamarine;
+    font-family: fantasy;
+    border-style: outset;
+    border-radius: 15px;
+    border-width: 15px;
+}
+
+/* ID Selector - # Will select the ID with the corresponding ID value*/
+
+#p1 {
+    color: aqua;
+    border-style: outset;
+    border-radius: 15px;
+    border-width: 5px;
+}
+
+/* Class selector - will select all elements in the corresponding class*/
+
+/* CSS reads top to bottom so the most recent declaration will be applied*/
+
+.paragraph {
+    background-color: cadetblue;
+    color: white;
+}
+
+.paragraph {
+    background-color: cadetblue;
+    color: white;
+}
+
+/* Group Selectors - Allows you to use multiple selectors seperated by a comma */
+
+h1,
+.paragraph,
+#p1 {
+    background-color: grey;
+    color: thistle;
+}
+
+div {
+    background-color: #adff2f;
+    color: white;
+    /* Margin adds space between the element and surrounding elements*/
+    margin: 50px;
+    border-radius: 40px;
+    /* Border sits around the content and padding. Can Also be invisible*/
+    border: 10px solid black;
+    /* Padding adds space between the content and the border of the element*/
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}

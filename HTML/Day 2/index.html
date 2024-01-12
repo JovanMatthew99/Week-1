@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#">
+        <label for="nameField">Name:</label>
+        <input id="nameField" type="text" placeholder="John Smith...">
+
+        <br>
+
+        <label for="pass">Password:</label>
+        <input id="pass" type="password" required>
+
+        <br>
+
+        <label for="mail">Email:</label>
+        <input id="mail" type="email" placeholder="Jane@example.com">
+
+        <br>
+
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="text" placeholder="(+44)12345678">
+
+        <br>
+
+        <label for="dob">DOB:</label>
+        <input id="dob" type="date">
+
+        <br>
+
+        <input type="submit">
+        <br>
+        <input type="reset" value="Clear">
+
+
+        <p>Please select your age range</p>
+        <input type="radio" id="21-30" name="age" value="20-30" />
+        <label for="20-30">20-30</label>
+        <input type="radio" id="31-40" name="age" value="31-40" />
+        <label for="31-40">31-40</label>
+        <input type="radio" id="41-50" name="age" value="41-50" />
+        <label for="41-50">41-50</label>
+        <input type="submit">
+    </form>
+
+    <form>
+        <p>Select your preferred means of transport to work</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Car">
+        <label for="vehicle1">Car</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Bus">
+        <label for="vehicle2">Bus</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Train">
+        <label for="vehicle3">Train</label>
+        <input type="submit">
+
+
+        <p>Please upload file</p>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        #
+
+        <label for="Product Review">Product Review:</label>
+        <br>
+        <textarea name="Product Review" rows="5" cols="30" placeholder="Please enter a product review here."></textarea>
+
+        #
+        <label for="Video Game">Choose a video game:</label>
+        <select name="Video Game" id="Video Game">
+            <option value="Super Smash Bros Ultimate">Super Smash Bros Ultimate</option>
+            <option value="Mario Kart 8">Mario Kart 8</option>
+            <option value="Zelda Breath of the Wild">Zelda Breath of the Wild</option>
+            <option value="Zelda Tears of the Kingdom">Zelda Tears of the Kingdom</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+
+
+</body>
+
+</html>

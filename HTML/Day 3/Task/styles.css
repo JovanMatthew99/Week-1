@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    border-style: ridge;
+
+
+}
